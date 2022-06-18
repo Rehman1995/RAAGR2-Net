@@ -6,3 +6,4 @@ RAAGR2-Net: A Brain Tumor Segmentation Network Using Parallel Processing of Mult
 ![RASP_Block drawio (2)](https://user-images.githubusercontent.com/46449452/169223239-3fee0e44-741d-447f-9948-2a4de98c32df.png)
 ![R2](https://user-images.githubusercontent.com/46449452/169223266-6a9f0706-9427-4226-b585-360470b320ea.png)
 ![Drawing2](https://user-images.githubusercontent.com/46449452/169223274-ee9fa42a-0c8c-4d44-9f79-351d3463045b.png)
+![server](https://user-images.githubusercontent.com/46449452/174421492-ce4f7804-c5af-481b-808c-89e1433e19d4.png)
