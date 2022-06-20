@@ -14,7 +14,7 @@ import time
 from threading import Thread
 
 ##################################################
-# Decair variables and create class instances
+# Declair variables and create class instances
 ##################################################
 
 
