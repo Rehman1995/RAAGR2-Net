@@ -6,7 +6,7 @@ import numpy as np
 #    from keras.layers.merge import concatenate
 #    from keras.layers import Activation
 #    import keras.backend as K 
-#if tf.__version__ == '2.2.0' or tf.__version__ == '2.1.0' or tf.__version__ == '2.3.0' or tf.__version__ == '2.5.0':
+#if tf.__version__ == '2.2.0' or tf.__version__ == '2.1.0' or tf.__version__ == '2.3.0' or tf.__version__ == '2.5.0': 
 import keras.backend as K
 from keras.layers import Activation, concatenate
     #import tensorflow_addons as tfa
