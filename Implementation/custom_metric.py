@@ -12,7 +12,7 @@ import numpy as np
 import keras.backend as K
 from keras.layers import Activation, concatenate
 #import tensorflow_addons as tfa
-from keras.backend import squeeze
+from keras.backend import squeeze 
 
 '''
   1.  In this on the fly lossses the ground truths are converted on they fly into the categorical type and only 
