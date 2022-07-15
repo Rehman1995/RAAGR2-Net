@@ -42,4 +42,4 @@ def mean_iou(y_true, y_pred, smooth=1):
     union = K.sum(y_true,[1,2])+K.sum(y_pred,[1,2])-intersection
     iou = K.mean((intersection + smooth) / (union + smooth), axis=[1,0])
     
-    return iou
+    return iou 
