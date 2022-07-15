@@ -60,7 +60,7 @@ def Weighted_BCEnDice_loss(y_true, y_pred):
     border = K.cast(K.greater(averaged_mask, 0.005), 'float32') * K.cast(K.less(averaged_mask, 0.995), 'float32')
     weight = K.ones_like(averaged_mask)
     w0 = K.sum(weight)
-    weight += border * 2
+    weight += border * 2 
     w1 = K.sum(weight)
     weight *= (w0 / w1)
     loss =  weighted_dice_loss(y_true, y_pred, weight) + weighted_bce_loss(y_true, y_pred, weight) 
