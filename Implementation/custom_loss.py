@@ -1,5 +1,5 @@
 
-import tensorflow as tf
+import tensorflow as tf 
 import numpy as np 
  
 #if tf.__version__ == '1.13.1' or tf.__version__ == '1.15.0': 
