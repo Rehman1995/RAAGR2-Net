@@ -11,11 +11,7 @@ from keras.layers import Activation, concatenate
 #import tensorflow_addons as tfa
 from keras.backend import squeeze 
 
-'''
-  1.  In this on the fly lossses the ground truths are converted on they fly into the categorical type and only 
-      hybrid and tri brid losses are doing that if you wann use only one loss then convert them first
-  2. ALso read DATA set guidelines in MUST READ file
-'''
+
 
 def dice_coef(y_true, y_pred, smooth=1):
     
